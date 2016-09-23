@@ -1,0 +1,516 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		181240AD1D94C68600BEC5A0 /* UITextField+WQKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 181240A81D94C68600BEC5A0 /* UITextField+WQKeyboard.m */; };
+		181240AE1D94C68600BEC5A0 /* WQKeyboard.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 181240A91D94C68600BEC5A0 /* WQKeyboard.bundle */; };
+		181240AF1D94C68600BEC5A0 /* WQKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 181240AB1D94C68600BEC5A0 /* WQKeyboard.m */; };
+		181240B01D94C68600BEC5A0 /* WQKeyboard.xib in Resources */ = {isa = PBXBuildFile; fileRef = 181240AC1D94C68600BEC5A0 /* WQKeyboard.xib */; };
+		181240BD1D94C6C100BEC5A0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 181240B31D94C6C100BEC5A0 /* AppDelegate.m */; };
+		181240BE1D94C6C100BEC5A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 181240B41D94C6C100BEC5A0 /* Assets.xcassets */; };
+		181240BF1D94C6C100BEC5A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 181240B51D94C6C100BEC5A0 /* LaunchScreen.storyboard */; };
+		181240C01D94C6C100BEC5A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 181240B71D94C6C100BEC5A0 /* Main.storyboard */; };
+		181240C11D94C6C100BEC5A0 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 181240B91D94C6C100BEC5A0 /* Info.plist */; };
+		181240C21D94C6C100BEC5A0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 181240BA1D94C6C100BEC5A0 /* main.m */; };
+		181240C31D94C6C100BEC5A0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 181240BC1D94C6C100BEC5A0 /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		037DA6E11C79FEAC00D8896F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 037DA6BF1C79FEAC00D8896F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 037DA6C61C79FEAC00D8896F;
+			remoteInfo = RYNumberKeyboardDemo;
+		};
+		037DA6EC1C79FEAC00D8896F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 037DA6BF1C79FEAC00D8896F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 037DA6C61C79FEAC00D8896F;
+			remoteInfo = RYNumberKeyboardDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		037DA6C71C79FEAC00D8896F /* WQKeyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WQKeyboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		037DA6E01C79FEAC00D8896F /* WQKeyboard.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WQKeyboard.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		037DA6EB1C79FEAC00D8896F /* WQKeyboard.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WQKeyboard.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		181240A71D94C68600BEC5A0 /* UITextField+WQKeyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+WQKeyboard.h"; sourceTree = "<group>"; };
+		181240A81D94C68600BEC5A0 /* UITextField+WQKeyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+WQKeyboard.m"; sourceTree = "<group>"; };
+		181240A91D94C68600BEC5A0 /* WQKeyboard.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = WQKeyboard.bundle; sourceTree = "<group>"; };
+		181240AA1D94C68600BEC5A0 /* WQKeyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WQKeyboard.h; sourceTree = "<group>"; };
+		181240AB1D94C68600BEC5A0 /* WQKeyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WQKeyboard.m; sourceTree = "<group>"; };
+		181240AC1D94C68600BEC5A0 /* WQKeyboard.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WQKeyboard.xib; sourceTree = "<group>"; };
+		181240B21D94C6C100BEC5A0 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		181240B31D94C6C100BEC5A0 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		181240B41D94C6C100BEC5A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		181240B61D94C6C100BEC5A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		181240B81D94C6C100BEC5A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		181240B91D94C6C100BEC5A0 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		181240BA1D94C6C100BEC5A0 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		181240BB1D94C6C100BEC5A0 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		181240BC1D94C6C100BEC5A0 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		037DA6C41C79FEAC00D8896F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		037DA6DD1C79FEAC00D8896F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		037DA6E81C79FEAC00D8896F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		037DA6BE1C79FEAC00D8896F = {
+			isa = PBXGroup;
+			children = (
+				181240A61D94C68600BEC5A0 /* WQKeyboard */,
+				181240B11D94C6C100BEC5A0 /* WQKeyboardDemo */,
+				037DA6C81C79FEAC00D8896F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		037DA6C81C79FEAC00D8896F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				037DA6C71C79FEAC00D8896F /* WQKeyboard.app */,
+				037DA6E01C79FEAC00D8896F /* WQKeyboard.xctest */,
+				037DA6EB1C79FEAC00D8896F /* WQKeyboard.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		181240A61D94C68600BEC5A0 /* WQKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				181240A91D94C68600BEC5A0 /* WQKeyboard.bundle */,
+				181240A71D94C68600BEC5A0 /* UITextField+WQKeyboard.h */,
+				181240A81D94C68600BEC5A0 /* UITextField+WQKeyboard.m */,
+				181240AA1D94C68600BEC5A0 /* WQKeyboard.h */,
+				181240AB1D94C68600BEC5A0 /* WQKeyboard.m */,
+				181240AC1D94C68600BEC5A0 /* WQKeyboard.xib */,
+			);
+			path = WQKeyboard;
+			sourceTree = SOURCE_ROOT;
+		};
+		181240B11D94C6C100BEC5A0 /* WQKeyboardDemo */ = {
+			isa = PBXGroup;
+			children = (
+				181240B21D94C6C100BEC5A0 /* AppDelegate.h */,
+				181240B31D94C6C100BEC5A0 /* AppDelegate.m */,
+				181240B41D94C6C100BEC5A0 /* Assets.xcassets */,
+				181240B51D94C6C100BEC5A0 /* LaunchScreen.storyboard */,
+				181240B71D94C6C100BEC5A0 /* Main.storyboard */,
+				181240B91D94C6C100BEC5A0 /* Info.plist */,
+				181240BA1D94C6C100BEC5A0 /* main.m */,
+				181240BB1D94C6C100BEC5A0 /* ViewController.h */,
+				181240BC1D94C6C100BEC5A0 /* ViewController.m */,
+			);
+			path = WQKeyboardDemo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		037DA6C61C79FEAC00D8896F /* WQKeyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 037DA6F41C79FEAC00D8896F /* Build configuration list for PBXNativeTarget "WQKeyboard" */;
+			buildPhases = (
+				037DA6C31C79FEAC00D8896F /* Sources */,
+				037DA6C41C79FEAC00D8896F /* Frameworks */,
+				037DA6C51C79FEAC00D8896F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WQKeyboard;
+			productName = RYNumberKeyboardDemo;
+			productReference = 037DA6C71C79FEAC00D8896F /* WQKeyboard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		037DA6DF1C79FEAC00D8896F /* WQKeyboardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 037DA6F71C79FEAC00D8896F /* Build configuration list for PBXNativeTarget "WQKeyboardTests" */;
+			buildPhases = (
+				037DA6DC1C79FEAC00D8896F /* Sources */,
+				037DA6DD1C79FEAC00D8896F /* Frameworks */,
+				037DA6DE1C79FEAC00D8896F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				037DA6E21C79FEAC00D8896F /* PBXTargetDependency */,
+			);
+			name = WQKeyboardTests;
+			productName = RYNumberKeyboardDemoTests;
+			productReference = 037DA6E01C79FEAC00D8896F /* WQKeyboard.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		037DA6EA1C79FEAC00D8896F /* WQKeyboardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 037DA6FA1C79FEAC00D8896F /* Build configuration list for PBXNativeTarget "WQKeyboardUITests" */;
+			buildPhases = (
+				037DA6E71C79FEAC00D8896F /* Sources */,
+				037DA6E81C79FEAC00D8896F /* Frameworks */,
+				037DA6E91C79FEAC00D8896F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				037DA6ED1C79FEAC00D8896F /* PBXTargetDependency */,
+			);
+			name = WQKeyboardUITests;
+			productName = RYNumberKeyboardDemoUITests;
+			productReference = 037DA6EB1C79FEAC00D8896F /* WQKeyboard.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		037DA6BF1C79FEAC00D8896F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Resory;
+				TargetAttributes = {
+					037DA6C61C79FEAC00D8896F = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					037DA6DF1C79FEAC00D8896F = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 037DA6C61C79FEAC00D8896F;
+					};
+					037DA6EA1C79FEAC00D8896F = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 037DA6C61C79FEAC00D8896F;
+					};
+				};
+			};
+			buildConfigurationList = 037DA6C21C79FEAC00D8896F /* Build configuration list for PBXProject "WQKeyboard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 037DA6BE1C79FEAC00D8896F;
+			productRefGroup = 037DA6C81C79FEAC00D8896F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				037DA6C61C79FEAC00D8896F /* WQKeyboard */,
+				037DA6DF1C79FEAC00D8896F /* WQKeyboardTests */,
+				037DA6EA1C79FEAC00D8896F /* WQKeyboardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		037DA6C51C79FEAC00D8896F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				181240B01D94C68600BEC5A0 /* WQKeyboard.xib in Resources */,
+				181240C11D94C6C100BEC5A0 /* Info.plist in Resources */,
+				181240C01D94C6C100BEC5A0 /* Main.storyboard in Resources */,
+				181240AE1D94C68600BEC5A0 /* WQKeyboard.bundle in Resources */,
+				181240BF1D94C6C100BEC5A0 /* LaunchScreen.storyboard in Resources */,
+				181240BE1D94C6C100BEC5A0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		037DA6DE1C79FEAC00D8896F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		037DA6E91C79FEAC00D8896F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		037DA6C31C79FEAC00D8896F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				181240AF1D94C68600BEC5A0 /* WQKeyboard.m in Sources */,
+				181240C31D94C6C100BEC5A0 /* ViewController.m in Sources */,
+				181240BD1D94C6C100BEC5A0 /* AppDelegate.m in Sources */,
+				181240AD1D94C68600BEC5A0 /* UITextField+WQKeyboard.m in Sources */,
+				181240C21D94C6C100BEC5A0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		037DA6DC1C79FEAC00D8896F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		037DA6E71C79FEAC00D8896F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		037DA6E21C79FEAC00D8896F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 037DA6C61C79FEAC00D8896F /* WQKeyboard */;
+			targetProxy = 037DA6E11C79FEAC00D8896F /* PBXContainerItemProxy */;
+		};
+		037DA6ED1C79FEAC00D8896F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 037DA6C61C79FEAC00D8896F /* WQKeyboard */;
+			targetProxy = 037DA6EC1C79FEAC00D8896F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		181240B51D94C6C100BEC5A0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				181240B61D94C6C100BEC5A0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		181240B71D94C6C100BEC5A0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				181240B81D94C6C100BEC5A0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		037DA6F21C79FEAC00D8896F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		037DA6F31C79FEAC00D8896F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		037DA6F51C79FEAC00D8896F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "$(SRCROOT)/WQKeyboardDemo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.resory.RYNumberKeyboardDemo;
+				PRODUCT_NAME = WQKeyboard;
+			};
+			name = Debug;
+		};
+		037DA6F61C79FEAC00D8896F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "$(SRCROOT)/WQKeyboardDemo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.resory.RYNumberKeyboardDemo;
+				PRODUCT_NAME = WQKeyboard;
+			};
+			name = Release;
+		};
+		037DA6F81C79FEAC00D8896F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RYNumberKeyboardDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.resory.RYNumberKeyboardDemoTests;
+				PRODUCT_NAME = WQKeyboard;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WQKeyboard.app/WQKeyboard";
+			};
+			name = Debug;
+		};
+		037DA6F91C79FEAC00D8896F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RYNumberKeyboardDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.resory.RYNumberKeyboardDemoTests;
+				PRODUCT_NAME = WQKeyboard;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WQKeyboard.app/WQKeyboard";
+			};
+			name = Release;
+		};
+		037DA6FB1C79FEAC00D8896F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RYNumberKeyboardDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.resory.RYNumberKeyboardDemoUITests;
+				PRODUCT_NAME = WQKeyboard;
+				TEST_TARGET_NAME = RYNumberKeyboardDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		037DA6FC1C79FEAC00D8896F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RYNumberKeyboardDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.resory.RYNumberKeyboardDemoUITests;
+				PRODUCT_NAME = WQKeyboard;
+				TEST_TARGET_NAME = RYNumberKeyboardDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		037DA6C21C79FEAC00D8896F /* Build configuration list for PBXProject "WQKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				037DA6F21C79FEAC00D8896F /* Debug */,
+				037DA6F31C79FEAC00D8896F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		037DA6F41C79FEAC00D8896F /* Build configuration list for PBXNativeTarget "WQKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				037DA6F51C79FEAC00D8896F /* Debug */,
+				037DA6F61C79FEAC00D8896F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		037DA6F71C79FEAC00D8896F /* Build configuration list for PBXNativeTarget "WQKeyboardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				037DA6F81C79FEAC00D8896F /* Debug */,
+				037DA6F91C79FEAC00D8896F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		037DA6FA1C79FEAC00D8896F /* Build configuration list for PBXNativeTarget "WQKeyboardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				037DA6FB1C79FEAC00D8896F /* Debug */,
+				037DA6FC1C79FEAC00D8896F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 037DA6BF1C79FEAC00D8896F /* Project object */;
+}
